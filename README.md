@@ -9,14 +9,14 @@ Game made with scratch: [http://scratch.mit.edu/projects/16849297/](http://scrat
 
 Week 1 submission
 =================
-Hello.c - prints Hello, world.
-mario.c - prints the mario stair.
-greedy.c - Convert your money to quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢). Rule: Use the least number of coins.
-credit.c - Check if number is valid credit card number, and list out the type of credit card.
-mario2.c - Advance version of mario stair program.
+Hello.c - prints Hello, world.<br>
+mario.c - prints the mario stair.<br>
+greedy.c - Convert your money to quarters (25¢), dimes (10¢), nickels (5¢), and pennies (1¢). Rule: Use the least number of coins.<br>
+credit.c - Check if number is valid credit card number, and list out the type of credit card.<br>
+mario2.c - Advance version of mario stair program.<br>
 
 Week 2 submission
 =================
-caesar.c - Caesar cipher.
-vigenere.c = Vigenere cipher.
+caesar.c - Caesar cipher.<br>
+vigenere.c = Vigenere cipher.<br>
 
