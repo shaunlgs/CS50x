@@ -1,5 +1,5 @@
-CS50
-====
+CS50x
+=====
 
 Submission for CS50x online course by Harvard University. I blogs about my journey through CS50x at [http://shaunlgs.com/blog/categories/cs50/](http://shaunlgs.com/blog/categories/cs50/).
 
