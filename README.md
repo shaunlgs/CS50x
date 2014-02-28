@@ -18,5 +18,5 @@ mario2.c - Advance version of mario stair program.<br>
 Week 2 submission
 =================
 caesar.c - Caesar cipher.<br>
-vigenere.c = Vigenere cipher.<br>
+vigenere.c - Vigenere cipher.<br>
 
