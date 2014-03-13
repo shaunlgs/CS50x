@@ -1,7 +1,7 @@
 CS50x
 =====
 
-Submission for CS50x online course by Harvard University. I blogs about my journey through CS50x at [http://shaunlgs.com/blog/categories/cs50/](http://shaunlgs.com/blog/categories/cs50/).
+Submission for CS50x online course by Harvard University. I blogs about my journey through CS50x at [http://shaunlgs.com/blog/categories/harvard-cs50x/](http://shaunlgs.com/blog/categories/harvard-cs50x/).
 
 Week 0 submission
 =================
@@ -25,3 +25,9 @@ Week 3 submission
 1. pset3/find/ - generate.c generates pseudorandom of size of user's choice, then find.c check if a number of user's choice is in those generated pseudorandom number. Usage: ./generate <size> <seed> | ./find <value><br>
 2. pset3/fifteen/ - generates a game of fifteen. Usage: ./fifteen <size of board><br>
 3. hacker3/find/ - similar as pset3, but this find (sort and search) algorithm is faster. Usage: ./generate <size> <seed> | ./find <value><br>
+
+Week 4 submission
+=================
+Made a game called Breakout with GUI using API from SPL (Stanford Portable Library). Avoid the ball from falling down the bottom edge, when the ball hit the paddle, it will bounce to the top, when it hit the bricks on the top portion of the game, the brick will dissapear, points increased, and ball will bounce back down.
+1. pset4 - Standard version of Breakout.
+2. hacker4 - Implemented GOD mode, the paddle will move itself according to x-position of the ball, essentially the computer is playing the game for you. Implemented paddle shrinking mechanism, variable scoring mechanism, variable-velocity mechanism, and laser.
