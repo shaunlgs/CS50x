@@ -29,5 +29,6 @@ Week 3 submission
 Week 4 submission
 =================
 Made a game called Breakout with GUI using API from SPL (Stanford Portable Library). Avoid the ball from falling down the bottom edge, when the ball hit the paddle, it will bounce to the top, when it hit the bricks on the top portion of the game, the brick will dissapear, points increased, and ball will bounce back down.<br>
+
 1. pset4 - Standard version of Breakout.<br>
 2. hacker4 - Implemented GOD mode, the paddle will move itself according to x-position of the ball, essentially the computer is playing the game for you. Implemented paddle shrinking mechanism, variable scoring mechanism, variable-velocity mechanism, and laser.<br>
