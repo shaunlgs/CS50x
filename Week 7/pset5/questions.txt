@@ -1,0 +1,19 @@
+0.  BMP, JPG and PNG file formats support 16777216 colors, GIF supports 258 colors.
+1.  GIF supports animation.
+2.  Lossy compression "lose" some of the data of a picture after encoding. Loseless compression allows full data to be reconstructed after enconding.
+3.  JPEG file format is lossy-compressed.
+4.  First, the system modifies the first character of the filename. Second, the system moves the file into a list of free clusters.
+5.  Use a sanitizing tool.
+6.  stdint.h is a header file comes with the C99 standard. It contains new data type that are useful in embeded environments where hardware supports usually only several types and that support varies from system to system.
+7.  They are exact-width integer types, they are guaranteed to have the same number of N bits across all implementations.
+8.  1, 4, 4, 2 bytes.
+9.  Hexadecimal.
+10. bfSize is the size in bytes of the bitmap file, biSize is the size in bytes required by the structure.
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner.
+12. biBitCount.
+13. The write operation failed. It may be due to permission problem.
+14. Because there is one element to be read.
+15. 0.
+16. fseek is a function that set the file position by a certain offset.
+17. SEEK_CUR is at the beginning of the file, where fseek will set the file position from by a certain offset.
+18. milo banana.
