@@ -4,9 +4,9 @@
  * Computer Science 50
  * Problem Set 5
  *
- * Copies a BMP piece by piece, just because.
+ * Resize a BMP by a factor, n.
  */
-       
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -32,7 +32,7 @@ int main(int argc, char* argv[])
     char* infile = argv[2];
     char* outfile = argv[3];
 
-    // open input file 
+    // open input file
     FILE* inptr = fopen(infile, "r");
     if (inptr == NULL)
     {
@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
     fread(&bi, sizeof(BITMAPINFOHEADER), 1, inptr);
 
     // ensure infile is (likely) a 24-bit uncompressed BMP 4.0
-    if (bf.bfType != 0x4d42 || bf.bfOffBits != 54 || bi.biSize != 40 || 
+    if (bf.bfType != 0x4d42 || bf.bfOffBits != 54 || bi.biSize != 40 ||
         bi.biBitCount != 24 || bi.biCompression != 0)
     {
         fclose(outptr);
@@ -66,30 +66,30 @@ int main(int argc, char* argv[])
         fprintf(stderr, "Unsupported file format.\n");
         return 4;
     }
-    
+
     // determine original padding
     int paddingOri = (4 - (bi.biWidth * sizeof(RGBTRIPLE)) % 4) % 4;
-    
+
     // update width and height info
     int biWidthOri = bi.biWidth;
     int biHeightOri = bi.biHeight;
     bi.biWidth *= n;
     bi.biHeight *= n;
-    
+
     // determine padding for scanlines
     int padding =  (4 - (bi.biWidth * sizeof(RGBTRIPLE)) % 4) % 4;
-    
+
     // update file size and image size info
     bf.bfSize = 14 + 40 + (bi.biWidth * sizeof(RGBTRIPLE) + padding)  * abs(bi.biHeight);
     bi.biSizeImage = (bi.biWidth * sizeof(RGBTRIPLE) + padding) * abs(bi.biHeight);
-    
+
     // write outfile's BITMAPFILEHEADER
     fwrite(&bf, sizeof(BITMAPFILEHEADER), 1, outptr);
-    
+
     // write outfile's BITMAPINFOHEADER
     fwrite(&bi, sizeof(BITMAPINFOHEADER), 1, outptr);
 
-    
+
     // iterate over infile's scanlines
     for (int i = 0, biHeight = abs(biHeightOri); i < biHeight; i++)
     {
@@ -104,7 +104,7 @@ int main(int argc, char* argv[])
 
                 // read RGB triple from infile
                 fread(&triple, sizeof(RGBTRIPLE), 1, inptr);
-                
+
                 // write n times for each pixel horizontally
                 for (int k = 0; k < n; k++)
                 {

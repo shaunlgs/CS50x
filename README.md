@@ -32,3 +32,12 @@ Made a game called Breakout with GUI using API from SPL (Stanford Portable Libra
 
 1. pset4 - Standard version of Breakout.<br>
 2. hacker4 - Implemented GOD mode, the paddle will move itself according to x-position of the ball, essentially the computer is playing the game for you. Implemented paddle shrinking mechanism, variable scoring mechanism, variable-velocity mechanism, and laser.<br>
+
+Week 5 submission
+=================
+1. pset5/bmp/copy.c - Copies a BMP piece by piece, just because.
+2. pset5/bmp/whodunit.c - Reveals who ate Mr. Boddy.
+3. pset5/bmp/resize.c - Resize a BMP by a factor, n.
+4. pset5/jpg/recover.c - Recovers JPEGs from a forensic image.
+5. questions.txt
+
