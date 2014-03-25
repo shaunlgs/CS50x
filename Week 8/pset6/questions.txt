@@ -1,0 +1,11 @@
+0.  The longest word in dictionary.
+1.  Return the resource usage measures.
+2.  There are 16 members in a variable of type struct rusage.
+3.  This is because &before and &after may be NULL, we have to pass in reference to check for NULL, rather than accessing before and after directly, we may get error.
+4.  For each iteration of the for loop, get a character from file pointed by file pointer fp. This is done until the EOF is detected. If the character is an alphabet or an apostrophes (only accept apostrophes not at the start of the word), we append the character to array word, if however, the word array is filled till its limit, meaning a word from the file reaches the maximum length allowed, we know that the word will not be in the dictionary, we make index 0, allowing the next word to form. Else if the character is a digit, we don't want words with digit, so we make index 0. Else if character is not alphabet or apostrophe or digit, and index is more than 0, it must be the start of a new word, we terminate the current word array with '\0', then update the words count, next we run the check function, if the check function returns true indicating the word is in the dictionary, the mispelled will be false and true otherwise, lastly, make index 0 for new word to form.
+5.  We may get strings that contain characters other than alphabet and apostrophe, also, we won't know how many characters in the array word is filled with characters from the file.
+6.  check function has constant character pointer because the address of the word that the pointer is pointing will not be changed. Similarly, the character pointer to dictionary is used because the address of the dictionary will not change.
+7.  I use trie to implement my spell checker. Each node is a structure that contains a boolean value isWord to denote if a letter marks the end of the word, and an array with 27 pointers to a similar structure. Each pointer points to the next node which represents the next letter.
+8.  My program took a total of 0.30 seconds to execute at the first run.
+9.  None.
+10. Valgrind showed that I had made errors from several contexts. The errors are of same type, the message is "Conditional jump or move depends on uninitialised value(s)".

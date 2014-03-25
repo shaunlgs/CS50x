@@ -39,5 +39,12 @@ Week 7 submission
 2. pset5/bmp/whodunit.c - Reveals who ate Mr. Boddy.
 3. pset5/bmp/resize.c - Resize a BMP by a factor, n.
 4. pset5/jpg/recover.c - Recovers JPEGs from a forensic image.
-5. questions.txt
+5. pset5/questions.txt - Answers to questions.
+
+Week 8 submission
+=================
+1. pset6/speller.c - Implements a spell-checker.
+2. pset6/dictionary.c -  Implements a dictionary's functionality.
+3. pset6/dictionary.h - Declares a dictionary's functionality.
+4. pset6/questions.txt - Answers to questions.
 
