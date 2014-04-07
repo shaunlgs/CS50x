@@ -1,7 +1,7 @@
 CS50x
 =====
 
-Submission for CS50x online course by Harvard University. I blogs about my journey through CS50x at [http://shaunlgs.com/blog/category/harvard-cs50x/](http://shaunlgs.com/blog/category/harvard-cs50x/).
+Submission for CS50x online course by Harvard University. I blogs about my journey through CS50x at [http://shaunlgs.com/blog/category/massive-open-online-course-mooc/harvard-cs50x/](http://shaunlgs.com/blog/category/massive-open-online-course-mooc/harvard-cs50x/).
 
 Week 0 submission
 =================
@@ -50,4 +50,4 @@ Week 8 submission
 
 Week 9 submission
 =================
-1. pset7 - Make a website similar to [CS50 finance](http://finance.cs50.net/) that allows fictional buying and selling of stocks. SQL username: jharvard, password: crimson.
+1. pset7 - Make a website similar to [http://finance.cs50.net/](CS50 finance) that allows fictional buying and selling of stocks. SQL username: jharvard, password: crimson.
