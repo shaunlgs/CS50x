@@ -48,3 +48,6 @@ Week 8 submission
 3. pset6/dictionary.h - Declares a dictionary's functionality.
 4. pset6/questions.txt - Answers to questions.
 
+Week 9 submission
+=================
+1. pset7 - Make a website similar to [http://finance.cs50.net/](CS50 finance) that allows fictional buying and selling of stocks. SQL username: jharvard, password: crimson.
