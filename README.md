@@ -51,3 +51,8 @@ Week 8 submission
 Week 9 submission
 =================
 1. pset7 - Make a website similar to [http://finance.cs50.net/](CS50 finance) that allows fictional buying and selling of stocks. SQL username: jharvard, password: crimson.
+
+Week 12 submission
+==================
+Final project - Locate Me
+A website that shows the distance between you and your friend on Google map by using only ID. [Locate Me](http://www.shaunlgs.com/projects/locateme/)
