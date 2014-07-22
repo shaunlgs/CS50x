@@ -1,7 +1,7 @@
 CS50x
 =====
 
-Submission for CS50x online course by Harvard University. I blogs about my journey through CS50x at [http://shaunlgs.com/blog/category/massive-open-online-course-mooc/harvard-cs50x/](http://shaunlgs.com/blog/category/massive-open-online-course-mooc/harvard-cs50x/).
+Submission for CS50x online course by Harvard University. I write about my journey through CS50x at [my blog](http://blog.shaunlgs.com).
 
 Week 0 submission
 =================
