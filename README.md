@@ -55,4 +55,4 @@ Week 9 submission
 Week 12 submission
 ==================
 Final project - Locate Me<br>
-A website that shows the distance between you and your friend on Google map by using only ID. [Locate Me](http://www.shaunlgs.com/projects/locateme/)
+A website that shows the distance between you and your friend on Google map by using only ID. [Locate Me](http://www.shaunlgs.com/projects/)
